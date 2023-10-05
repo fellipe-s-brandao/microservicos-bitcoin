@@ -1,0 +1,41 @@
+Arguments: 
+  /home/fellipe/.nvm/versions/node/v20.8.0/bin/node /mnt/c/Program Files/nodejs/node_modules/yarn/bin/yarn.js add ampqlib axios dotenv
+
+PATH: 
+  /home/fellipe/.vscode-server/bin/fdb98833154679dbaa7af67a5a29fe19e55c2b73/bin/remote-cli:/home/fellipe/.nvm/versions/node/v20.8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/felli/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Trabalho/nvm:/mnt/c/Program Files/nodejs:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/felli/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/felli/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/felli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/felli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Trabalho/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/JetBrains/DataGrip 2022.3.3/bin:/mnt/c/Users/felli/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/felli/AppData/Local/JetBrains/Toolbox/scripts:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ampqlib: Not found
+      at params.callback [as _callback] (/mnt/c/Users/Trabalho/nvm/v14.21.3/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/mnt/c/Users/Trabalho/nvm/v14.21.3/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/mnt/c/Users/Trabalho/nvm/v14.21.3/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/mnt/c/Users/Trabalho/nvm/v14.21.3/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "microservico-financeiro",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
