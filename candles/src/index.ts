@@ -20,7 +20,7 @@ const generateCandles = async () => {
     }
 
     while(true) {
-        const loopTimes = Period.FIVE_MINUTES / Period.TEN_SECONDS
+        const loopTimes = Period.ONE_MINUTE / Period.TEN_SECONDS
         const candle = new Candle('BTC')
 
         console.log('----------------------------------------');
