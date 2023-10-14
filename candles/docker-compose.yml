@@ -15,14 +15,6 @@ services:
       - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
     networks:
       - rabbitmq_go_net
-  microservices-bitcoin:
-    build: .
-    container_name: microservices-bitcoin
-    ports:
-      - 3338:3338
-      - 9229:9229
-    volumes:
-      - .:/usr/app
 
 networks:
   rabbitmq_go_net:
